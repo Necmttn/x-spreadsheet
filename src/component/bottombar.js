@@ -15,7 +15,7 @@ class DropdownMore extends Dropdown {
   }
 
   reset(items) {
-    const eles = items.map((it, i) => h('div', `${cssPrefix}-item`)
+    const eels = items.map((it, i) => h('div', `${cssPrefix}-item`)
       .css('width', '150px')
       .css('font-weight', 'normal')
       .on('click', () => {
